@@ -3,6 +3,23 @@ body {
   font-family: Roboto, sans-serif;
   font-style: normal;
   letter-spacing: 0.03em;
+  box-sizing: border-box;
+}
+
+ul,
+li,
+p,
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 
 ul {
@@ -42,6 +59,17 @@ address {
 .logo-studio-footer {
   color: #ffffff;
 }
+
+/* container */
+.container {
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: auto;
+  padding: auto;
+}
+
+/* Header */
 
 /* nav, titles, team-names, buttons */
 .nav-link,
