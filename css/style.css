@@ -1,0 +1,184 @@
+/* global */
+body {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  letter-spacing: 0.03em;
+}
+
+ul {
+  list-style: none;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+address {
+  font-style: normal;
+}
+
+/* colors */
+:root {
+  --title-color: #212121;
+  --white-color: #ffffff;
+  --blue-color: #2196f3;
+  --text-color: #757575;
+}
+
+/* logo */
+.logo {
+  color: var(--blue-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.logo-studio-header {
+  color: #000000;
+}
+
+.logo-studio-footer {
+  color: #ffffff;
+}
+
+/* nav, titles, team-names, buttons */
+.nav-link,
+.benefits-title,
+.work-title,
+.team-title,
+.team-name,
+button {
+  color: var(--title-color);
+}
+
+/* nav  letter-spacing*/
+
+nav {
+  letter-spacing: 0.02em;
+}
+
+/* hover, focus in nav and contacts in header */
+.nav-link:hover,
+.nav-link:focus,
+.contacts-header:hover,
+.contacts-header:focus {
+  color: var(--blue-color);
+}
+
+.contacts-header,
+.benefits-text,
+.team-employee {
+  color: var(--text-color);
+}
+
+/* hero, footer background-color*/
+.hero,
+footer {
+  background-color: #2f303a;
+}
+
+/* hero */
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  color: var(--white-color);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+/* Заказать услугу */
+.order {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: var(--white-color);
+}
+
+/* Преимущества */
+.hiden-title {
+  display: none;
+}
+
+.benefits-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.benefits-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/* title - Чем мы занимаемся, Наша команда*/
+.work-title,
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+}
+
+/* Команда */
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.team-employee {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+/* footer */
+.location {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--white-color);
+}
+.contacts-footer {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+button {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
+}
+
+.buttons,
+.work-photo,
+.team-cards {
+  display: flex;
+}
+/* Портфоліо */
+
+/* Заголовки карток */
+.portfolio-cards h2 {
+  color: var(--title-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+/* Типи карток */
+.portfolio-cards p {
+  color: var(--text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+}
