@@ -27,14 +27,6 @@ body {
   display: flex;
 }
 
-.header,
-.main,
-.footer {
-  width: 1600px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
 ul,
 li,
 p,
@@ -165,7 +157,7 @@ a:visited {
 .hero {
   text-align: center;
   height: 600px;
-  padding-top: 175px;
+  padding-top: 200px;
   margin-bottom: 94px;
 }
 
